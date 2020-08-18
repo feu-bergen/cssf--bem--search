@@ -1,0 +1,128 @@
+html {
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.button {
+    box-sizing: border-box;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+    padding: 1.4em 2em 1.2em;
+    display: table;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #ccc;
+    border-radius: 0.3em;
+    text-decoration: none;
+    outline: none;
+}
+
+.button:hover,
+.button:focus  {
+    box-shadow: inset 0 -0.4em 0 rgba(0,0,0,0.3);
+    padding-bottom: 1.6em;
+    margin-top: -0.4em;
+}
+
+.button:active {
+    box-shadow: inset 0 -.1em 0 rgba(0,0,0,0.3);
+    padding-bottom: 1.4em;
+    margin-top: -0.2em;
+}
+
+.button--confirm {
+    background-color: #2d9f2d;
+}
+
+
+.textbox {
+    box-sizing: border-box;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    padding: 1.4em 2em 1.2em;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 0.3em;
+    outline: none;
+}
+.textbox:focus {
+    background-color: #fff;
+}
+
+
+.example {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+
+
+
+.sitesearch__submit {
+    display: inline-block;
+    vertical-align: top;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.sitesearch__query {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+}
+
+.sitesearch__form {
+    display: flex;
+}
+
+.sitesearch__suggestions {
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.sitesearch__suggestionstitle {
+    font-size: .8em;
+    font-weight: normal;
+    opacity: 0.5;
+    font-style: italic;
+    margin: 0em;
+    padding: 0.5em;
+}
+
+.autocompletelist {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.autocompletelist__item {
+}
+
+.autocompletelist__suggestion {
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.8em 0.5em ;
+    background-color: #eee;
+    outline: none;
+}
+
+
+.autocompletelist__suggestion:hover,
+.autocompletelist__suggestion:focus {
+    background-color: #fff;
+}
+.autocompletelist__suggestion:focus {
+    font-weight: bold;
+}
